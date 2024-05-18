@@ -36,4 +36,4 @@ console.log(navigation());
 
 console.log(greeting)
 
-console.log(multiply(6, 5));
+console.log(multiply(6, 6));
