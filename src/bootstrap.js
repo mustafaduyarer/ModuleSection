@@ -22,8 +22,18 @@ console.log(multiply(6, 5));
 */
 
 // 2.yol
-import * as helper from "./helper";
+// import * as helper from "./helper";
 
-console.log(helper.greeting)
+// console.log(helper.greeting)
 
-console.log(helper.multiply(6, 5));
+// console.log(helper.multiply(6, 5));
+
+/////////////////////////////////////////////////////
+
+import navigation, {greeting, multiply} from "./navigation";
+
+console.log(navigation());
+
+console.log(greeting)
+
+console.log(multiply(6, 5));
